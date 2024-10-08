@@ -124,8 +124,22 @@ label {
 }
 
 .projects > .cards > .card {
+    > h2 {
+        margin-bottom: 0;
+    }
+    display: grid;
     overflow: hidden;
     position: relative;
+}
+.projects .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+    gap: 0.5rem;
+    > img {
+        height: 1.5rem;
+    }
 }
 
 .projects > .cards > .card::after {
